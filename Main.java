@@ -138,6 +138,8 @@ public class Main {
 //        q.poll();
 //        System.out.println(q);
         //Set
+       //it is case sensitive.
+       //it has size and add methods 
 //String[] things={"appe","bob","bob","appe"};
 //List<String> list3=Arrays.asList(things);
 //Set<String> set=new HashSet<String>(list3);
