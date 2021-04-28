@@ -169,6 +169,8 @@ public class Main {
         //Useful tricks
 //        Collections.max();//gives the maximum number
 //        Integer.toBinaryString(10)//gives binary of the number
+//        Character.toLowerCase(char);//requires java.lang.Character
+//        String w[]=w.split(" ");
     }
 
 }
