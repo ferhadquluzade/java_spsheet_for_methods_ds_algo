@@ -171,6 +171,7 @@ public class Main {
 //        Integer.toBinaryString(10)//gives binary of the number
 //        Character.toLowerCase(char);//requires java.lang.Character
 //        String w[]=w.split(" ");
+        Arrays.sort(arr,(a,b)->Integer.compare(a.length(),b.length()));
     }
 
 }
