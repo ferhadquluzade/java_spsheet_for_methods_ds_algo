@@ -165,9 +165,10 @@ public class Main {
 //                m=c;
 //            return m;
 //        }
-        //https://www.codewars.com/kata/51675d17e0c1bed195000001/solutions
-        Collections.max();//gives the maximum number
-
+        
+        //Useful tricks
+//        Collections.max();//gives the maximum number
+//        Integer.toBinaryString(10)//gives binary of the number
     }
 
 }
