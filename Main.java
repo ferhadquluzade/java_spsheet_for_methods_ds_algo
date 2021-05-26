@@ -75,6 +75,9 @@ public class Main {
 //            l.subList(from,to).clear();
 //        }
 //        public static void reverseMe(List<String> l){
+            
+        //iterator differs from the that of list iterator that requires size and has additional features like  next/previous and next/previousIndex
+    
 //            ListIterator<String> iter=l.listIterator(l.size());
 //            System.out.println("last one "+iter.previous());
 //            while(iter.hasPrevious()){
@@ -83,7 +86,7 @@ public class Main {
 //            }
 //    }
         //listToArray
-//         String[]  things=["babies","melons","watermelon"];
+//         String[]  things={"babies","melons","watermelon"};
 //         LinkedList<String> theList=new LinkedList<String>(Arrays.asList(things));
 //         theList.add("thinfg");//adds to the last
 //         theList.addFirst("Firstelement");//this is a list element not an array one and adds to the starts
@@ -171,7 +174,7 @@ public class Main {
 //        Integer.toBinaryString(10)//gives binary of the number
 //        Character.toLowerCase(char);//requires java.lang.Character
 //        String w[]=w.split(" ");
-        Arrays.sort(arr,(a,b)->Integer.compare(a.length(),b.length()));
+//        Arrays.sort(arr,(a,b)->Integer.compare(a.length(),b.length()));
     }
 
 }
